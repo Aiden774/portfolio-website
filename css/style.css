@@ -1,0 +1,49 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+ 
+}
+
+.nav-links {
+    display: flex;
+     gap: 2rem;
+     list-style: none;
+      padding: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-info {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.hero-image {
+    width: 350px;
+    height: 350px;
+    border: 2px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
